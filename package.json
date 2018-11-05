@@ -1,11 +1,20 @@
 {
   "name": "use-legacy-state",
   "version": "1.0.0",
-  "description": "Custom hook that gives React class setState behaviour, to ease transition to hooks",
+  "description": "Custom React hook; drop-in replacement for this.setState",
   "main": "index.js",
   "repository": "https://github.com/suchipi/use-legacy-state",
   "author": "Suchipi <me@suchipi.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "hooks",
+    "state",
+    "convert",
+    "class",
+    "setState",
+    "this.setState"
+  ],
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-react": "^7.0.0",
