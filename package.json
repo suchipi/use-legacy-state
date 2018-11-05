@@ -1,0 +1,26 @@
+{
+  "name": "use-legacy-state",
+  "version": "1.0.0",
+  "description": "Custom hook that gives React class setState behaviour, to ease transition to hooks",
+  "main": "index.js",
+  "repository": "https://github.com/suchipi/use-legacy-state",
+  "author": "Suchipi <me@suchipi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-testing-library": "^5.2.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.7.0",
+    "react-dom": ">=16.7.0"
+  },
+  "dependencies": {
+    "object.assign": "^4.1.0"
+  }
+}
